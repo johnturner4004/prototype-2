@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Player01Control : MonoBehaviour
 {
+  // gets input from the player
   public float horizontalInput;
-  public float speed = 10.0f;
+  //speed and range for player motion
+  private float speed = 20.0f;
   //sets max/min x values
-  public float xRange = 20.0f;
+  private float xRange = 20.0f;
 
   public GameObject ProjectilePrefab;
   // Start is called before the first frame update
