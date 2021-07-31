@@ -310,10 +310,6 @@ MonoBehaviour:
   - {fileID: 2595236260132246416, guid: 455fd685f0f4b4bd6b86334afba8f8db, type: 3}
   - {fileID: 5550318915934064970, guid: f0d29e7369a404f37afe2f9b176f5a1a, type: 3}
   - {fileID: 2143431111043383017, guid: feff8042b8e4446d78e2be9760b33751, type: 3}
-  spawnRangeX: 20
-  spawnRangeZ: 20
-  spawnDelay: 2
-  spawnInterval: 1.5
 --- !u!4 &373747772
 Transform:
   m_ObjectHideFlags: 0
@@ -712,7 +708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.1996098
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -762,8 +758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
-  xRange: 20
   ProjectilePrefab: {fileID: 7110096478645003229, guid: 2215d885eb2984945b05960cb0be4356, type: 3}
 --- !u!1001 &2143431110928979262
 PrefabInstance:
