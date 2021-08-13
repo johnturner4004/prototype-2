@@ -19,7 +19,14 @@ public class DetectCollisions : MonoBehaviour
   // Detects collisions between objects and destroys them
   private void OnTriggerEnter(Collider other)
   {
+    if (tag == "Player")
+    {
+      Destroy(other.gameObject);
+    }
+    else
+    {    
     Destroy(gameObject);
     Destroy(other.gameObject);
+    }
   }
 }
