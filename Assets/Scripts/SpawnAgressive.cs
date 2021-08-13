@@ -7,7 +7,7 @@ public class SpawnAgressive : MonoBehaviour
   public GameObject[] agressivePrefabs;
   private float spawnXPosition = 30.0f;
   private float[] spawnRangeX = { -30.0f, 30.0f };
-  private float spawnZLower = -5.0f;
+  private float spawnZLower = -3.0f;
   private float spawnZUpper = 10.0f;
   private float spawnDelay = 2.0f;
   private float spawnInterval = 1.5f;

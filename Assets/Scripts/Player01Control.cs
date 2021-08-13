@@ -14,6 +14,8 @@ public class Player01Control : MonoBehaviour
   //sets max/min z values
   private float zLower = -5.0f;
   private float zUpper = 10.0f;
+  //used to make projectile spawn outside the players collision box
+  public Transform projectileSpawnPoint;
 
   public GameObject ProjectilePrefab;
   // Start is called before the first frame update
@@ -62,7 +64,7 @@ public class Player01Control : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.Space))
     {
       // launch a projectile from the player
-      Instantiate(ProjectilePrefab, transform.position, ProjectilePrefab.transform.rotation);
+      Instantiate(ProjectilePrefab, projectileSpawnPoint.position, ProjectilePrefab.transform.rotation);
     }
   }
 }
