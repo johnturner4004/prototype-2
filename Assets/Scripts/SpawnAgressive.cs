@@ -10,7 +10,7 @@ public class SpawnAgressive : MonoBehaviour
   private float spawnZLower = -3.0f;
   private float spawnZUpper = 10.0f;
   private float spawnDelay = 2.0f;
-  private float spawnInterval = 1.5f;
+  private float spawnInterval = 3.0f;
 
   // Start is called before the first frame update
   void Start()

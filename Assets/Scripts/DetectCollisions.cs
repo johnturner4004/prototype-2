@@ -26,11 +26,10 @@ public GameManager gameManager;
       gameManager.AddLives(-1);
       Destroy(gameObject);
     }
-    else
+    else if (other.CompareTag("Dog"))
     {    
-      gameManager.AddScore(5);
-    Destroy(gameObject);
-    Destroy(other.gameObject);
+      other.GetComponent<AnimalHunger>().FeedAnimals(1);
+      Destroy(gameObject);
     }
   }
 }
